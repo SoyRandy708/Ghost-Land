@@ -1,0 +1,60 @@
+/* GENERAL */
+:root {
+    --negro: #000000;
+    --blanco: #f7f7f7;
+    --azul: #000057;
+    --cafe: #913e38;
+    --cafe2: #752f2a;
+    --verde: #177f0f;
+
+}
+html {
+    font-size: 62.5%;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1.6rem;    
+}
+main {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* PANTALLA DE INICIO */
+.telefono {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 600px;
+    border: 8px solid var(--negro);
+    border-radius: 40px;
+    box-shadow: 0 0 15px 1px var(--negro);
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-halloween-castillo-tenebroso_1048-3101.jpg?w=360&t=st=1670979632~exp=1670980232~hmac=1eb640f153c255be28855ceb848d66f92173779b077e4569783ac4f3c439d3ca");
+    background-position: center;
+    overflow: hidden;
+}
+h1 {
+    margin: 40px;
+    color: var(--blanco);
+    font-size: 6rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,112,253,1) 100%);
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--negro);
+    cursor: pointer;
+}
